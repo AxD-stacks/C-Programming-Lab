@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    float mass, vel, ke;                            //vel for velocity, ke for kinetic energy
+    float force, mass, acc;                           
     printf("Enter mass of the object in kg:\n");
     scanf("%f", &mass);
-    printf("Enter the velocity of the object in m/s:\n");
-    scanf("%f", &vel);
-    ke=0.5*mass*vel*vel;
-    printf("The kinetic energy would be equal to %f J", ke);
+    printf("Enter the acceleration of the object in m/s^2:\n");
+    scanf("%f", &acc);
+    force=mass*acc;
+    printf("The force would be equal to %f N", force);
     return 0;
+
 }
