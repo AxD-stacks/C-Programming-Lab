@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int year, temp, sum;
+    int year, temp;
     printf("Enter year:\n");
     scanf("%d", &year);
     temp=year;
@@ -10,4 +10,5 @@ int main()
     else
         printf("%d is not a leap year.\n", year);
     return 0;
+
 }
