@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int num, temp, sum;
+    int num;
     printf("Enter the number:\n");
     scanf("%d", &num);
     if(num>0)
@@ -11,4 +11,5 @@ int main()
     else
         printf("%d is zero\n", num);
     return 0;
+
 }
